@@ -33,7 +33,7 @@ class Help:
                          fg="black")
         help_lbl3.place(x=450, y=400)
 
-        help_lbl4= Label(f_lbl_left, text="Abhisheksing@gmail.com", font=("times new roman", 25, "bold"),
+        help_lbl4= Label(f_lbl_left, text="Abhisheksingh@gmail.com", font=("times new roman", 25, "bold"),
                          fg="black")
         help_lbl4.place(x=450, y=450)
 

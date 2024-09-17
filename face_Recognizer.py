@@ -39,7 +39,7 @@ class FaceRecognizer:
         #============================attendence==========
 
     def mark_attendence(self,id,r,n,d):
-        with open("badru.csv","r+",newline="\n") as f:
+        with open("data.csv","r+",newline="\n") as f:
             myDataList=f.readlines()
             name_list=[]
             for line in myDataList:
